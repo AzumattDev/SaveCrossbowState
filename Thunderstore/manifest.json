@@ -1,0 +1,9 @@
+{
+  "name": "SaveCrossbowState",
+  "version_number": "1.0.0",
+  "website_url": "https://discord.gg/pdHgy6Bsng",
+  "description": "Client mod that will save the state of the crossbow when you switch weapons (or otherwise unequip the crossbow). Meaning, if it was loaded, it will be loaded when you switch back to it.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2202"
+  ]
+}
