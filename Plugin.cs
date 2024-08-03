@@ -11,7 +11,7 @@ namespace SaveCrossbowState
     public class SaveCrossbowStatePlugin : BaseUnityPlugin
     {
         internal const string ModName = "SaveCrossbowState";
-        internal const string ModVersion = "1.0.0";
+        internal const string ModVersion = "1.0.1";
         internal const string Author = "Azumatt";
         private const string ModGUID = $"{Author}.{ModName}";
         private readonly Harmony _harmony = new(ModGUID);
@@ -32,7 +32,7 @@ namespace SaveCrossbowState
 
         public static bool IsCrossbowItem(ItemDrop.ItemData? possibleCrossbow)
         {
-            return possibleCrossbow != null && possibleCrossbow.m_shared.m_skillType == Skills.SkillType.Crossbows;
+            return possibleCrossbow?.m_shared.m_skillType is Skills.SkillType.Crossbows or Skills.SkillType.ElementalMagic;
         }
     }
 
