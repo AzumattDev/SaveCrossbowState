@@ -1,4 +1,5 @@
-| `Version` | `Update Notes`                                                            |
-|-----------|---------------------------------------------------------------------------|
-| 1.0.1     | - Now save Dundr state. (Bascially a magic crossbow, so people wanted it) |
-| 1.0.0     | - Initial Release                                                         |
+| `Version` | `Update Notes`                                                                                                                                                                                        |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0.2     | - Recompile and version bump. Nothing else changed.<br/> - Recompile to help out with overprotective AV flagging the dll for whatever reason. Hoping a simple recompile changes whatever is flagging. |
+| 1.0.1     | - Now save Dundr state. (Bascially a magic crossbow, so people wanted it)                                                                                                                             |
+| 1.0.0     | - Initial Release                                                                                                                                                                                     |
